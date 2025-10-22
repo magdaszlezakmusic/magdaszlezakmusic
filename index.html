@@ -1,67 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Magda Szlęzak – Linki</title>
-  <meta name="description" content="Oficjalne linki Magdy Szlęzak – YouTube, Instagram, TikTok, Facebook oraz muzyka.">
   <style>
-    :root{
+    :root {
       --bg:#0f1720; --card:#0b1220; --accent:#f472b6; --text:#e6eef6;
       font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;
     }
-    html,body{height:100%;margin:0;background:linear-gradient(180deg,#0a0e1c 0%, #1a1030 100%);color:var(--text)}
-    .wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px}
-    .card{width:100%;max-width:520px;background:rgba(255,255,255,0.05);border-radius:20px;padding:34px;box-shadow:0 10px 30px rgba(2,6,23,0.6);text-align:center}
-    .avatar{width:100px;height:100px;border-radius:50%;margin:0 auto 14px;overflow:hidden}
-    .avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}
-    h1{margin:6px 0 6px;font-size:22px}
-    p.bio{margin:0 0 18px;color:rgba(230,238,246,0.85)}
-    .links{display:flex;flex-direction:column;gap:12px;margin-top:10px}
-    .link{display:flex;align-items:center;gap:12px;padding:12px 16px;background:rgba(255,255,255,0.07);border-radius:14px;text-decoration:none;color:var(--text);transition:transform .12s ease,background .12s ease}
-    .link:hover{transform:translateY(-4px);background:rgba(255,255,255,0.12)}
-    .icon{width:28px;height:28px;flex:0 0 28px;display:flex;align-items:center;justify-content:center;font-size:18px}
-    .small{font-size:13px;color:rgba(230,238,246,0.8)}
+    body, html {margin:0; padding:0; height:100%; background:linear-gradient(180deg,#0a0e1c 0%, #1a1030 100%); color:var(--text);}
+    .wrap {display:flex; justify-content:center; align-items:center; min-height:100vh; padding:32px;}
+    .card {background:rgba(255,255,255,0.05); border-radius:20px; padding:34px; max-width:520px; width:100%; text-align:center; box-shadow:0 10px 30px rgba(2,6,23,0.6);}
+    .avatar {width:100px; height:100px; border-radius:50%; margin:0 auto 14px; overflow:hidden;}
+    .avatar img {width:100%; height:100%; object-fit:cover; border-radius:50%;}
+    h1 {margin:6px 0 6px; font-size:22px;}
+    p.bio {margin:0 0 18px; color:rgba(230,238,246,0.85);}
+    .links {display:flex; flex-direction:column; gap:12px; margin-top:10px;}
+    .link {display:flex; align-items:center; gap:12px; padding:12px 16px; background:rgba(255,255,255,0.07); border-radius:14px; text-decoration:none; color:var(--text); transition:0.12s ease;}
+    .link:hover {transform:translateY(-4px); background:rgba(255,255,255,0.12);}
+    .icon {width:28px; height:28px; flex:0 0 28px; display:flex; align-items:center; justify-content:center;}
+    .small {font-size:13px; color:rgba(230,238,246,0.8);}
   </style>
 </head>
 <body>
- <div class="avatar">
-  <img src="avatar.jpg" 
-       alt="Magda Szlęzak" 
-       style="width:100%;height:100%;border-radius:50%;object-fit:cover;">
-</div>
-</div>
+  <div class="wrap">
+    <div class="card">
+      <div class="avatar">
+        <img src="avatar.jpg" alt="Magda Szlęzak">
+      </div>
       <h1>Magda Szlęzak</h1>
       <p class="bio">Wokalistka, autorka tekstów i muzyki. Laureatka ogólnopolskich konkursów muzycznych. Aktywnie koncertuje, tworzy i nagrywa. Debiutancki album <strong>„ZLEPEK – CAŁOŚĆ”</strong> już wkrótce ujrzy światło dzienne.</p>
-
       <div class="links">
         <a class="link" href="https://www.youtube.com/@magda.szlezak" target="_blank">
-          <span class="icon">▶️</span>
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="28" height="28"><path d="M10 8l6 4-6 4V8z"/></svg>
+          </span>
           <span>YouTube<div class="small">@magda.szlezak</div></span>
         </a>
 
         <a class="link" href="https://www.instagram.com/magda.szlezak" target="_blank">
-          <span class="icon">📸</span>
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="3"/><path d="M19.4 6.6a2.1 2.1 0 0 0-1.5-1.5C16.6 5 12 5 12 5s-4.6 0-5.9.1a2.1 2.1 0 0 0-1.5 1.5C4.5 7.9 4.5 12 4.5 12s0 4.1.1 5.4a2.1 2.1 0 0 0 1.5 1.5C7.4 19 12 19 12 19s4.6 0 5.9-.1a2.1 2.1 0 0 0 1.5-1.5c.1-1.3.1-5.4.1-5.4s0-4.1-.1-5.4z"/></svg>
+          </span>
           <span>Instagram<div class="small">@magda.szlezak</div></span>
         </a>
 
         <a class="link" href="https://www.tiktok.com/@magdaszlezak.music?_t=8s31Wnspg9O&_r=1" target="_blank">
-          <span class="icon">🎵</span>
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="28" height="28"><path d="M9 3v12.5c0 3.6 4.4 4.2 6 2.1V7h3V3H9z"/></svg>
+          </span>
           <span>TikTok<div class="small">@magdaszlezak.music</div></span>
         </a>
 
         <a class="link" href="https://www.facebook.com/szlezak.magda" target="_blank">
-          <span class="icon">📘</span>
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="28" height="28"><path d="M22 12c0-5.5-4.5-10-10-10S2 6.5 2 12c0 5 3.7 9.1 8.5 9.9v-7h-2.5v-2.9H10.5V9.5c0-2.5 1.5-3.9 3.7-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.5.7-1.5 1.4v1.7h2.6l-.4 2.9h-2.2v7C18.3 21.1 22 17 22 12z"/></svg>
+          </span>
           <span>Facebook<div class="small">/szlezak.magda</div></span>
         </a>
 
         <a class="link" href="https://drive.google.com/drive/folders/1NUeGb36AbcSMVTeVu8tJxB4e6abkclu5?usp=drive_link" target="_blank">
-          <span class="icon">💿</span>
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="12" cy="12" r="4"/></svg>
+          </span>
           <span>MAGDA SZLĘZAK – ZLEPEK – CAŁOŚĆ (Album)</span>
         </a>
 
         <a class="link" href="https://drive.google.com/drive/folders/1VXv8Q7KuUd3NOodtQR2Hmr9m77eeNHn8?usp=drive_link" target="_blank">
-          <span class="icon">🎬</span>
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="14" rx="2" ry="2"/><path d="M3 17h18v4H3z"/></svg>
+          </span>
           <span>SAM NA SAM (KLIP)</span>
         </a>
       </div>
@@ -69,6 +78,3 @@
   </div>
 </body>
 </html>
-
-
-
