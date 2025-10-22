@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Magda Szlęzak – Linki</title>
+  <meta name="description" content="Oficjalne linki Magdy Szlęzak – YouTube, Instagram, TikTok, Facebook oraz muzyka.">
+  <style>
+    :root{
+      --bg:#0f1720; --card:#0b1220; --accent:#f472b6; --text:#e6eef6;
+      font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;
+    }
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#0a0e1c 0%, #1a1030 100%);color:var(--text)}
+    .wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px}
+    .card{width:100%;max-width:520px;background:rgba(255,255,255,0.05);border-radius:20px;padding:34px;box-shadow:0 10px 30px rgba(2,6,23,0.6);text-align:center}
+    .avatar{width:100px;height:100px;border-radius:50%;margin:0 auto 14px;overflow:hidden}
+    .avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+    h1{margin:6px 0 6px;font-size:22px}
+    p.bio{margin:0 0 18px;color:rgba(230,238,246,0.85)}
+    .links{display:flex;flex-direction:column;gap:12px;margin-top:10px}
+    .link{display:flex;align-items:center;gap:12px;padding:12px 16px;background:rgba(255,255,255,0.07);border-radius:14px;text-decoration:none;color:var(--text);transition:transform .12s ease,background .12s ease}
+    .link:hover{transform:translateY(-4px);background:rgba(255,255,255,0.12)}
+    .icon{width:28px;height:28px;flex:0 0 28px;display:flex;align-items:center;justify-content:center;font-size:18px}
+    .small{font-size:13px;color:rgba(230,238,246,0.8)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="avatar">
+        <img src="https://drive.google.com/uc?export=view&id=1fWtmKFni_4-HbHx9UhzU2KCsqA36pqL7" alt="Magda Szlęzak">
+      </div>
+      <h1>Magda Szlęzak</h1>
+      <p class="bio">Wokalistka, autorka tekstów i muzyki, nauczyciel śpiewu. Laureatka ogólnopolskich konkursów muzycznych. Aktywnie koncertuje, tworzy i nagrywa. Debiutancki album <strong>„ZLEPEK – CAŁOŚĆ”</strong> już wkrótce ujrzy światło dzienne.</p>
+
+      <div class="links">
+        <a class="link" href="https://www.youtube.com/@magda.szlezak" target="_blank">
+          <span class="icon">▶️</span>
+          <span>YouTube<div class="small">@magda.szlezak</div></span>
+        </a>
+
+        <a class="link" href="https://www.instagram.com/magda.szlezak" target="_blank">
+          <span class="icon">📸</span>
+          <span>Instagram<div class="small">@magda.szlezak</div></span>
+        </a>
+
+        <a class="link" href="https://www.tiktok.com/@magdaszlezak.music?_t=8s31Wnspg9O&_r=1" target="_blank">
+          <span class="icon">🎵</span>
+          <span>TikTok<div class="small">@magdaszlezak.music</div></span>
+        </a>
+
+        <a class="link" href="https://www.facebook.com/szlezak.magda" target="_blank">
+          <span class="icon">📘</span>
+          <span>Facebook<div class="small">/szlezak.magda</div></span>
+        </a>
+
+        <a class="link" href="https://drive.google.com/drive/folders/1NUeGb36AbcSMVTeVu8tJxB4e6abkclu5?usp=drive_link" target="_blank">
+          <span class="icon">💿</span>
+          <span>MAGDA SZLĘZAK – ZLEPEK – CAŁOŚĆ (Album)</span>
+        </a>
+
+        <a class="link" href="https://drive.google.com/drive/folders/1VXv8Q7KuUd3NOodtQR2Hmr9m77eeNHn8?usp=drive_link" target="_blank">
+          <span class="icon">🎬</span>
+          <span>SAM NA SAM (KLIP)</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
